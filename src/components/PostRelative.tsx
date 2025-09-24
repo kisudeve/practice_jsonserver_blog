@@ -10,6 +10,9 @@ export default function PostRelative() {
   const isLoadingPosts = usePostStore((state) => state.isLoadingPosts);
   useEffect(() => {
     fetchPosts(("posts?id_ne=" + params.id) as string);
+    return () => {
+      usePostStore.setState({ posts: [] });
+    };
   }, [params.id, fetchPosts]);
 
   if (isLoadingPosts) return <PostRelativeLoader />;

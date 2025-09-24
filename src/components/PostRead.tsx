@@ -11,6 +11,9 @@ export default function PostRead() {
   const isLoadingPost = usePostStore((state) => state.isLoadingPost);
   useEffect(() => {
     fetchPost("posts/" + params.id);
+    return () => {
+      usePostStore.setState({ post: null });
+    };
   }, [params.id, fetchPost]);
 
   if (isLoadingPost) return <PostReadLoader />;
