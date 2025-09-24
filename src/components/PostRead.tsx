@@ -20,12 +20,12 @@ export default function PostRead() {
           className="object-cover w-full max-h-[278px] rounded-md"
         />
         <div className="mt-4 flex items-center gap-[14px]">
-          <img src={dummyImage3} alt="" className="rounded-s-full" />
+          <img src={dummyImage3} alt="" className="rounded-s-full max-w-10" />
           <strong className="text-sm">George Costanazv</strong>
         </div>
       </section>
       {/* 본문 */}
-      <section className="max-w-[800px] mx-auto text-lg sm:text-xl text-[#434343] mt-5 [&>p]:mb-10 ">
+      <section className="max-w-[800px] mx-auto text-lg sm:text-xl text-[#434343] mt-5 [&>p]:mb-10 mb-10 ">
         <p>
           Vel leo proin facilisis metus sit ut cursus sagittis. Diam donec mus
           malesuada et ac vulputate. Aenean lacinia suspendisse et mattis
