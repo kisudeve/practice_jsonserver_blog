@@ -5,7 +5,7 @@ export default function PostListLoader() {
         <div className="bg-white">
           <a href="#" aria-label="Loading article">
             <article className="animate-pulse">
-              <div className="bg-gray-200 w-full py-[25%] rounded-lg"></div>
+              <div className="bg-gray-200 w-full py-[28.1%] rounded-lg"></div>
               <div className="mt-5.25">
                 <div className="bg-gray-300 w-20 h-6.5 rounded-md mb-4"></div>
                 <div className="bg-gray-300 w-3/4 h-6 rounded-md mb-3"></div>
@@ -22,7 +22,7 @@ export default function PostListLoader() {
         <div className="bg-white">
           <a href="#" aria-label="Loading article">
             <article className="animate-pulse">
-              <div className="bg-gray-200 w-full py-[25%] rounded-lg"></div>
+              <div className="bg-gray-200 w-full py-[28.1%] rounded-lg"></div>
               <div className="mt-5.25">
                 <div className="bg-gray-300 w-20 h-6.5 rounded-md mb-4"></div>
                 <div className="bg-gray-300 w-3/4 h-6 rounded-md mb-3"></div>

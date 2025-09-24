@@ -6,7 +6,11 @@ export default function PostListItem() {
     <>
       <Link to="/read/1">
         <article>
-          <img src={dummyImage} alt="dummy" className="object-cover" />
+          <img
+            src={dummyImage}
+            alt="dummy"
+            className="object-cover w-full aspect-[16/9]"
+          />
           <div>
             <strong className="w-[73px] h-[26px] bg-[#283A61] text-white text-[12px] sm:text-sm flex items-center justify-center rounded-[3px] mt-[21px] mb-[8px]">
               Next.JS
