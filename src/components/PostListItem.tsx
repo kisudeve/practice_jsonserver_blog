@@ -21,7 +21,11 @@ export default function PostListItem() {
               tempus a egestas sodales diam cras.
             </p>
             <div className="mt-4 flex items-center gap-[14px]">
-              <img src={dummyImage3} alt="" className="rounded-s-full" />
+              <img
+                src={dummyImage3}
+                alt=""
+                className="rounded-s-full max-w-10"
+              />
               <strong className="text-sm">George Costanazv</strong>
             </div>
           </div>
